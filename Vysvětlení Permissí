@@ -1,0 +1,54 @@
+Vysvětlení Permissí
+ab.kick.use - Hráč s touto permissí
+ab.kick.exempt - Hráč s touto permissí
+ab.kick.notify - Hráč s touto permissí
+ 
+ab.ban.perma - Hráč s touto permissí může dát ban
+ab.ban.temp - Hráč s touto permissí může dát tempban
+ab.ban.exempt - Hráč s touto permissí je imuní proti banu
+ab.ban.notify - Hráč s touto permissí dostane zprávu pokud bude někdo zabanovaný
+ab.ban.undo - Hráč s touto permissí může dát unban
+ 
+ab.tempban.exempt - Hráč s touto permissí je imuní proti tempbanu
+ab.tempban.notify - Hráč s touto permissí dostane zprávu pokud bude někdo zabanovaný
+ 
+ab.ipban.perma - Hráč s touto permissí může dát ip ban
+ab.ipban.temp - Hráč s touto permissí může dát temp ip ban
+ab.ipban.exempt - Hráč s touto permissí je imuní proti ip banům
+ab.ipban.notify - Hráč s touto permissí dostane zprávu pokud někdo dostane ip ban
+ 
+ab.tempipban.exempt - Hráč s touto permissí je imuní proti temp ip banu
+ab.tempipban.notify - Hráč s touto permissí dostane zprávu pokud někdo dostane temp ip ban
+ 
+ab.mute.perma - Hráč s touto permissí může dát mute
+ab.mute.temp - Hráč s touto permissí může dát temp mute
+ab.mute.exempt - Hráč s touto permissí je imuní proti mute
+ab.mute.notify - Hráč s touto permissí dostane zprávu pokud někdo dostane mute
+ab.mute.undo - Hráč s touto permissí může dát unmute
+ 
+ab.tempmute.exempt - Hráč s touto permissí je imuní proti tempmute
+ab.tempmute.notify - Hráč s touto permissí dostane zprávu pokud někdo dostane mute
+ 
+ab.warn.perma - Hráč s touto permissí může dát warn
+ab.warn.temp - Hráč s touto permissí může dát temp warn
+ab.warn.exempt - Hráč s touto permissí je imuní proti warnu
+ab.warn.notify - Hráč s touto permissí dostane zprávu pokud někdo dostane warn
+ab.warn.undo - Hráč s touto permissí může dát unwarn
+ 
+ab.tempwarn.exempt - Hráč s touto permissí je imuní proti temp warnu
+ab.tempwarn.notify - Hráč s touto permissí dostane zprávu pokud někdo dostane temp warn
+ 
+ab.all.undo - Hráč s touto permissí může dát unban, unwarn, unmute, ...
+ 
+ab.warns.own - Hráč s touto permissí může dát příkaz /warns
+ab.warns.other - Hráč s touto permissí může dát příkaz /warns
+ 
+ab.check - Hráč s touto permissí může napsat /check
+ab.check.ip - Hráč s touto permissí  může zjisti ip (ip v /check)
+ 
+ab.changeReason - Hráč s touto permissí  může změnit důvod
+ab.banlist - Hráč s touto permissí se může podívat do banlistu
+ab.history - Hráč s touto permissí se může podívat do historie (kdo co dostal)
+ab.reload - Hráč s touto permissí  může reloadnout plugin
+ab.help - Hráč s touto permissí může získat pomoc od pluginu
+ab.systemprefs - Hráč s touto permissí může použít příkaz /systemprefs
