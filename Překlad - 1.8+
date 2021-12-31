@@ -1,0 +1,228 @@
+General:
+  Prefix: "&c&lBans &8&l\xbb"
+  NoPerms: "&cNa toto nemas prava!"
+  LayoutNotFound: "&cThere is no layout called %NAME%"
+  # This will be the replacement for the %DURATION% variable
+  TimeLayoutD: "%D%day(s) %H%h %M%min and %S%sec"
+  TimeLayoutH: "%H%hour(s) %M%min and %S%sec"
+  TimeLayoutM: "%M%min and %S%sec"
+  TimeLayoutS: "%S% seconds"
+  FailedFetch: "&cCloud not fetch the UUID of %NAME%! See console for details."
+ 
+ 
+Ban:
+  Usage: "&cPouzij &e\xbb &7&o/ban [Jmeno] [Duvod]"
+  Done: "&c&o%NAME% &7byl uspesne zabanovan!"
+  AlreadyDone: "&c&o%NAME% &7je jiz zabanovan!"
+  Exempt: "&7Nemuzes zabanovat &c&o%NAME%"
+  Layout:
+  - '%PREFIX% &7Byl si zabanovat'
+  - '&7'
+  - '&7'
+  - "&cZ duvodu &8\xbb &7%REASON%"
+  - '&7'
+  - '&8Pokud si myslis ze byl ban udelen nepravem tak si zajdi na nas ts3 server'
+  - "&eTS3 &e\xbb &a&nts3.server.com"
+  Notification:
+  - "&c&o%NAME% &7byl zabanovan od &e&o%OPERATOR%"
+  - "&7Z duvodu &e\xbb &o%REASON%"
+ 
+Ipban:
+  Usage: "&cPouzij &e\xbb &7&o/banip [Jmeno/IP] [Duvod]"
+  Layout:
+  - '%PREFIX% &7Byl si zabanovat'
+  - '&7'
+  - '&7'
+  - "&cZ duvodu &8\xbb &7%REASON%"
+  - '&7'
+  - '&8Pokud si myslis ze byl ban udelen nepravem tak si zajdi na nas ts3 server'
+  - "&eTS3 &e\xbb &a&nts3.server.com"
+  Notification:
+  - "&c&o%NAME% &7byl zabanovan od &e&o%OPERATOR%"
+  - "&7Z duvodu &e\xbb &o%REASON%"
+  IpNotCashed: "&cNeni ip addresa pro %NAME%!"
+ 
+Tempban:
+  Usage: "&cPouzij &e\xbb &7&o/tempban [Jmeno] [Xmo/Xd/Xh/Xm/Xs #CasoveUseky] [Duvod]"
+  MaxDuration: "&cNemuzes hrace zabanovat na vic jak %MAX%sec"
+  Layout:
+  - '%PREFIX% &7byl si zabanovan'
+  - '&8(&7%OPERATOR%&8)'
+  - '&7'
+  - "&cZ duvodu &e\xbb &7%REASON%"
+  - "&cNa dobu &e\xbb &7%DURATION%"
+  - '&7'
+  - '&8Pokud si myslis ze byl ban udelen nepravem tak si zajdi na nas ts3 server'
+  - "&eTS3 &e\xbb &a&nts3.server.com"
+  Notification:
+  - "&c&o%NAME% &7byl zabanovan od &e&o%OPERATOR%"
+  - "&7&oNa dobu &e&o%DURATION%"
+  - "&7Z duvodu &e\xbb &o%REASON%"
+ 
+Tempipban:
+  Usage: "&cPouzij &e\xbb &7&o/tempipban [Jmeno] [Xmo/Xd/Xh/Xm/Xs #CasoveUseky] [Duvod]"
+  MaxDuration: "&cNemuzes hrace zabanovat na vic jak %MAX%sec"
+  Layout:
+  - '%PREFIX% &7byl si zabanovan'
+  - '&8(&7%OPERATOR%&8)'
+  - '&7'
+  - "&cZ duvodu &e\xbb &7%REASON%"
+  - "&cNa dobu &e\xbb &7%DURATION%"
+  - '&7'
+  - '&8Pokud si myslis ze byl ban udelen nepravem tak si zajdi na nas ts3 server'
+  - "&eTS3 &e\xbb &a&nts3.server.com"
+  Notification:
+  - "&c&o%NAME% &7byl zabanovan od &e&o%OPERATOR%"
+  - "&7&oNa dobu &e&o%DURATION%"
+  - "&7Z duvodu &e\xbb &o%REASON%"
+ 
+Mute:
+  Usage: "&cPouzij &e\xbb &7&o/mute [Jmeno] [Duvod]"
+  Done: "&c&o%NAME% &7byl uspesne umlcen!"
+  AlreadyDone: "&c&o%NAME% &7jiz umlceny je!"
+  Exempt: "&7Nemuzes umlcet &c&o%NAME%"
+  Layout:
+  - '%PREFIX% &7Byl si umlcen'
+  - "&cZ duvodu &e\xbb &7%REASON%"
+  - '&8(&7%OPERATOR%&8)'
+  Notification:
+  - "&c&o%NAME% &7byl umlcen od &e&o%OPERATOR%"
+  - "&7Z duvodu &e\xbb &o%REASON%"
+ 
+Tempmute:
+  Usage: "&cPouzij &8\xbb &7&o/tempmute [Jmeno] [Xmo/Xd/Xh/Xm/Xs #CasoveUseky] [Duvod]"
+  MaxDuration: "&cNemuzes hrace umlcet na vic jak %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Byl si umlcen na %DURATION%'
+  - "&cZ duvodu &8\xbb &7%REASON%"
+  - '&8(&7%OPERATOR%&8)'
+  Notification:
+  - "&c&o%NAME% &7byl umlcen od &e&o%OPERATOR%"
+  - "&7&oNa dobu &e\xbb &7&o%DURATION%"
+  - "&7Z duvodu &e\xbb &7&o%REASON%"
+ 
+Warn:
+  Usage: "&cPouzij &e\xbb &7&o/warn [Jmeno] [Duvod]"
+  Done: "&c&o%NAME% &7byl uspesne varovan!"
+  Exempt: "&7Nemuzes umlcet &c&o%NAME%"
+  Layout:
+  - '%PREFIX% &cByl jsi varovan'
+  - "&cZ duvodu &e\xbb &7%REASON%"
+  - '&8(&7%OPERATOR%&8)'
+  Notification:
+  - "&c&o%NAME% &7byl varovan od &e&o%OPERATOR%"
+  - "&7Z duvodu &e\xbb &7&o%REASON%"
+ 
+Tempwarn:
+  Usage: "&cUsage &8\xbb &7&o/tempwarn [Name] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to warn more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &cYou received a temp-warning'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cIt will pass in &8\xbb &7%DURATION%"
+  - '&7You have now &c&o%COUNT% &7warning(s) in total!'
+  Notification:
+  - "&c&o%NAME% &7got temp-warned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7This warning will pass in &o%DURATION%"
+ 
+Kick:
+  Usage: "&cPouzij &e\xbb &7&o/kick [Jmeno] [Duvod]"
+  Done: "&c&o%NAME% &7byl uspesne vyhozen!"
+  NotOnline: "&c&o%NAME% &7neni online!"
+  Exempt: "&7Nemuzes vyhodit &c&o%NAME%"
+  Layout:
+  - '%PREFIX% &7Byl jsi vyhozen'
+  - '&8(&7%OPERATOR%&8)'
+  - '&7'
+  - "&cZ duvodu &e\xbb &7%REASON%"
+  - '&7'
+  Notification:
+  - "&c&o%NAME% &7byl vyhozen od &e&o%OPERATOR%"
+  - "&7Z duvodu &e\xbb &7&o%REASON%"
+
+UnBan:
+  Usage: "&cPouzij &e\xbb &7&o/unban [Jmeno/IP]"
+  NotPunished: "&c&o%NAME% neni zabanovan"
+  Done: "&a&o%NAME% &7byl uspesne odbanovan!"
+ 
+UnMute:
+  Usage: "&cPouzij &e\xbb &7&o/unmute [Jmeno]"
+  NotPunished: "&c&o%NAME% neni umlcen!"
+  Done: "&a&o%NAME% &7byl uspesne odmlcen!"
+ 
+UnWarn:
+  Usage: "&cPouzij &e\xbb &7&o/unwarn clear [Jmeno]"
+  NotFound: "&cNelze najit varovani #%ID%"
+  Done: "&7Varovani &a&o#%ID% &7bylo uspesne odstraneno!"
+  Clear:
+    Empty: "&c&o%NAME% &7nema varovani!"
+    Done: "&7Odstraneno &a&o%COUNT% &7varovani hraci &c&o%NAME%"
+ 
+UnPunish:
+  Usage: "&cUsage &8\xbb &7&o/unpunish [ID]"
+  NotFound: "&cCoud not find punishment #%ID%"
+  Done: "&7Punishment &a&o#%ID% &7was successfully deleted!"
+ 
+ 
+Banlist:
+  Usage: "&cPouzij &e\xbb &7&o/banlist <Strana>"
+  OutOfIndex: "&cToto neni strana %PAGE%!"
+  NoEntries: "&c&oZadne bany zde nejsou"
+  Header:
+  - "%PREFIX% &7Banlist:"
+  - "&c&oHrac/IP &8| &e&oCas &8| &7&oZabanovan od"
+  - "&c&oTyp &8> &7&oDuvod"
+  - "&7"
+  Entry:
+  - "&8[&e%DATE%&8]"
+  - "&c%NAME% &8| &e%DURATION% &8| &7%OPERATOR%"
+  - "&c%TYPE% &8> &7&o%REASON%"
+  - "&7"
+  Footer: "&7Strana &e&o%CURRENT_PAGE% &7z &e&o%TOTAL_PAGES% &8| &7Aktivovano banu: &e&o%COUNT%"
+  PageFooter: "&7Pouzij &e&o/banlist %NEXT_PAGE% &7k podivani se na dalsi stranu"
+ 
+History:
+  Usage: "&cPouzij &e\xbb &7&o/history [Jmeno/IP] <Strana>"
+  OutOfIndex: "&cToto neni strana %PAGE%!"
+  NoEntries: "&c&oNelze najit historii k %NAME%"
+  Header:
+  - "%PREFIX% &7Historie %NAME%:"
+  - "&c&oJmeno &8| &e&oCas &8| &7&oAdmin"
+  - "&c&oTyp &8> &7&oDuvod"
+  - "&7"
+  Entry:
+  - "&8[&e%DATE%&8]"
+  - "&c%NAME% &8| &e%DURATION% &8| &7%OPERATOR%"
+  - "&c%TYPE% &8> &7&o%REASON%"
+  - "&7"
+  Footer: "&7Strana &e&o%CURRENT_PAGE% &7z &e&o%TOTAL_PAGES% &8| &7Aktivovano typu: &e&o%COUNT%"
+  PageFooter: "&7Pouzij &e&o/history %NAME% %NEXT_PAGE% &7k podivani se na dalsi stranu"
+ 
+Warns:
+  Usage: "&cPouzij &e\xbb &7&o/warns [Jmeno] <Strana>"
+  OutOfIndex: "&cToto neni strana %PAGE%!"
+  NoEntries: "&c&o%NAME% nema zadne varovani"
+  Header:
+  - "%PREFIX% &7Varovani pro %NAME%:"
+  - "&c&oJmeno &8| &e&oCas &8| &7&oVarovan od"
+  - "&c&o#ID &8> &7&oDuvod"
+  - "&7"
+  Entry:
+  - "&8[&e%DATE%&8]"
+  - "&c%NAME% &8| &e%DURATION% &8| &7%OPERATOR%"
+  - "&c&l#%ID% &8> &7&o%REASON%"
+  - "&7"
+  Footer: "&7Strana &e&o%CURRENT_PAGE% &7z &e&o%TOTAL_PAGES% &8| &7Aktivovano varovani: &e&o%COUNT%"
+  PageFooter: "&7Pouzij &e&o/history %NAME% %NEXT_PAGE% &7k podivani se na dalsi stranu"
+ 
+ 
+Check:
+  Usage: "&cPouzij &e\xbb &7&o/check [Jmeno]"
+  Header: "&7Kontroluji &e&o%NAME%"
+  IP: "&cIP &e\xbb &7%IP%"
+  Geo: "&cZeme &e\xbb &7%LOCATION%"
+  Mute: "&cUmlceni &e\xbb &7%DURATION%"
+  Ban: "&cBanu &e\xbb &7%DURATION%"
+  Warn: "&cVarovani &e\xbb &7%COUNT%"
+  NotFound: "&cNelze najit hrace %NAME%"
