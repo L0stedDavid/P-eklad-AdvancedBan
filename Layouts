@@ -1,0 +1,18 @@
+
+
+# Layouts jsou již přednastavené bany tudíž ve hře už stačí jen zadat příkaz: /ban hrac @NasLayout
+# The default layouts are in the Message.yml file!
+
+# Message-Layouts can not only be used for bans but also for mutes and warns
+# Variables: %OPERATOR%, %REASON%, %PREFIX%, %DURATION%
+# For warns you have also the variable %COUNT% which will be
+# replaced with the current amount of warns the player already received
+# Example usage: /ban Leoko @ExampleLayout
+Message: []
+
+# You would use this time-layout for example like this: "/tempban Leoko #ExampleLayout Hacking in FFA"
+# Or with "/tempwarn Leoko #ExampleLayout Advertising" or even "/tempwarn Leoko #ExampleLayout No capslock please"
+# You can also combine this with MessageLayouts like "/tempban Leoko #ExampleLayout @Hacking"
+Time:
+  ExampleLayout: []
+
