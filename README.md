@@ -1,0 +1,77 @@
+# Překlad AdvancedBan
+
+Permisse 
+  Hrac:
+    permissions:
+    - ab.kick.notify
+    - ab.ban.notify
+    - ab.tempban.notify
+    - ab.ipban.notify
+    - ab.tempipban.notify
+  Builder:
+    permissions:
+    - ab.kick.notify
+    - ab.ban.notify
+    - ab.tempban.notify
+    - ab.ipban.notify
+    - ab.tempipban.notify
+  Helper:
+    permissions:
+    - ab.kick.use
+    - ab.kick.notify
+    - ab.ban.perma
+    - ab.ban.temp
+    - ab.ban.notify
+    - ab.ban.undo
+    - ab.tempban.notify
+    - ab.ipban.temp
+    - ab.ipban.notify
+    - ab.tempipban.notify
+    - ab.mute.perma
+    - ab.mute.temp
+    - ab.mute.notify
+    - ab.mute.undo
+    - ab.tempmute.notify
+    - ab.warn.perma
+    - ab.warn.temp
+    - ab.warn.notify
+    - ab.warn.undo
+    - ab.all.undo
+    - ab.warns.own
+    - ab.warns.other
+    - ab.check
+    - ab.changeReason
+    - ab.banlist
+    - ab.history
+  Admin:
+    permissions:
+    - ab.kick.use
+    - ab.kick.exempt
+    - ab.kick.notify
+    - ab.ban.perma
+    - ab.ban.temp
+    - ab.ban.exempt
+    - ab.ban.notify
+    - ab.ban.undo
+    - ab.tempban.exempt
+    - ab.tempban.notify
+    - ab.ipban.perma
+    - ab.ipban.temp
+    - ab.ipban.exempt
+    - ab.ipban.notify
+    - ab.tempipban.exempt
+    - ab.tempipban.notify
+    - ab.mute.perma
+    - ab.mute.temp
+    - ab.mute.exempt
+    - ab.mute.notify
+    - ab.mute.undo
+    - ab.tempmute.exempt
+    - ab.tempmute.notify
+    - ab.warn.perma
+    - ab.warn.temp
+    - ab.warn.exempt
+    - ab.warn.notify
+    - ab.warn.undo
+    - ab.tempwarn.exempt
+    - ab.tempwarn.notify
